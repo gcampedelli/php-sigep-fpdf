@@ -1,8 +1,7 @@
 {
     "name": "gcampedelli/php-sigep-fpdf",
     "version": "1.0.0",
-    "description": "Metapackage with Sigep",
-    "type": "metapackage",
+    "description": "Metapackage with Sigep"
     "config":{
     "repositories": 
     { 
