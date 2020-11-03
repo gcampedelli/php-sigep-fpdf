@@ -12,5 +12,8 @@
     "autoload": {
         "classmap": ["PhpSigepFPDF.php"]
     }
+  },
+  "replace": {
+    "original/library":"1.0.2"
   }
 }
