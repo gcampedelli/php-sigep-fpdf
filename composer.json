@@ -8,6 +8,9 @@
         "name": "tcesarpinho-php-sigep-fpdf",
         "type": "vcs",
         "url": "git@github.com:gcampedelli/php-sigep-fpdf.git" 
-    } 
+    },
+    "autoload": {
+        "classmap": ["PhpSigepFPDF.php"]
+    }
   }
 }
