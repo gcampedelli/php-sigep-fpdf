@@ -1,15 +1,14 @@
 {
-    "name": "stavarengo/php-sigep-fpdf",
-    "description": "Unofficial FPDF library - Cópia do FPDF 1.7 usado pelo projeto stavarengo/php-sigep.",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Stavarengo",
-            "email": "faelsta@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "classmap": ["PhpSigepFPDF.php"]
-    }
+    "name": "gcampedelli/php-sigep-fpdf",
+    "version": "1.0.0",
+    "description": "Metapackage with Sigep",
+    "type": "metapackage",
+    "config":{
+    "repositories": 
+    { 
+        "name": "tcesarpinho-php-sigep-fpdf",
+        "type": "vcs",
+        "url": "git@github.com:gcampedelli/php-sigep-fpdf.git" 
+    } 
+  }
 }
